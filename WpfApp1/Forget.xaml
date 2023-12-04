@@ -1,0 +1,21 @@
+﻿<Page x:Class="WpfApp1.Forget"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Forget">
+
+    <Grid Background="White">
+        <Label Content="User Name" Style="{StaticResource Label1}" Margin="27,75,0,325"/>
+        <Label Content="password" Style="{StaticResource Label1}" Margin="27,166,0,224"/>
+        <TextBox x:Name="Name_Txt" HorizontalAlignment="Left" Margin="333,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="30"/>
+        <PasswordBox x:Name="Pass_Txt" HorizontalAlignment="Left" Margin="333,166,0,0"  VerticalAlignment="Top" Width="120" Height="30"/>
+        <Label Content="Login" Style="{StaticResource Label1}" Margin="0,6,0,439" Width="134" RenderTransformOrigin="0.884,0.573" HorizontalAlignment="Center"/>
+        <Button Content="Confirm" Style="{StaticResource Butt1}" Width="126" Margin="537,281,0,94" HorizontalAlignment="Left" Click="Button_Click"/>
+        <Label Content="Confirm" Style="{StaticResource Label1}" Margin="27,263,0,141"/>
+        <PasswordBox x:Name="con_Txt" HorizontalAlignment="Left" Margin="333,265,0,0"  VerticalAlignment="Top" Width="120" Height="30"/>
+    </Grid>
+</Page>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntaMeenModelStoreContainer" CdmEntityContainer="EntaMeenEntities">
+    <EntitySetMapping Name="Entameen1">
+      <EntityTypeMapping TypeName="EntaMeenModel.Entameen1">
+        <MappingFragment StoreEntitySet="Entameen1">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="E_Name" ColumnName="E_Name" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Addresso" ColumnName="Addresso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
